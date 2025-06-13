@@ -283,13 +283,13 @@ const DashboardOverview = () => {
           <div className="bg-white rounded-xl shadow-soft p-6">
             <h3 className="font-semibold text-gray-900 mb-4">Quick Actions</h3>
             <div className="space-y-3">
-              <Button
+<Button
                 variant="outline"
-                icon="Camera"
+                icon="Bug"
                 className="w-full justify-start"
-                onClick={() => navigate('/add-plant')}
+                onClick={() => navigate('/pest-identification')}
               >
-                Identify Plant
+                Check for Pests
               </Button>
               <Button
                 variant="outline"

@@ -51,7 +51,7 @@ const plantService = {
     return true
   },
 
-  async identifyFromPhoto(photoData) {
+async identifyFromPhoto(photoData) {
     await delay(2000) // Simulate AI processing
     // Mock AI identification results
     const mockResults = [
@@ -82,6 +82,67 @@ const plantService = {
     ]
     
     return mockResults[Math.floor(Math.random() * mockResults.length)]
+  },
+
+  async identifyPestFromPhoto(photoData, plantId = null) {
+    await delay(2500) // Simulate AI processing
+    
+    let plantType = null
+    if (plantId) {
+      try {
+        const plant = await this.getById(plantId)
+        plantType = plant.type
+      } catch (err) {
+        // Continue without plant type context
+      }
+    }
+
+    // Mock pest identification results
+    const mockPests = [
+      {
+        id: 'aphids',
+        name: 'Aphids',
+        type: 'pest',
+        confidence: 0.89,
+        severity: 'moderate',
+        symptoms: ['Small green insects on leaves', 'Sticky honeydew', 'Yellowing leaves'],
+        treatments: [
+          'Spray with insecticidal soap solution',
+          'Introduce ladybugs as natural predators',
+          'Use neem oil spray every 3-5 days'
+        ]
+      },
+      {
+        id: 'powdery_mildew',
+        name: 'Powdery Mildew',
+        type: 'disease',
+        confidence: 0.94,
+        severity: 'high',
+        symptoms: ['White powdery coating on leaves', 'Yellowing leaves', 'Stunted growth'],
+        treatments: [
+          'Apply baking soda spray (1 tsp per quart water)',
+          'Improve air circulation around plant',
+          'Remove affected leaves immediately'
+        ]
+      }
+    ]
+    
+    const result = mockPests[Math.floor(Math.random() * mockPests.length)]
+    
+    // Add plant-specific context if available
+    if (plantType) {
+      result.plantContext = `Detected on ${plantType} plant`
+      if (plantType.toLowerCase().includes('edible')) {
+        result.treatments = result.treatments.filter(t => 
+          t.toLowerCase().includes('organic') || 
+          t.toLowerCase().includes('soap') || 
+          t.toLowerCase().includes('neem')
+        )
+        result.treatments.unshift('Use only organic treatments for edible plants')
+      }
+    }
+    
+    return result
   }
 }
 

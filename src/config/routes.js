@@ -4,6 +4,7 @@ import Calendar from '@/components/pages/Calendar'
 import Guides from '@/components/pages/Guides'
 import PlantDetail from '@/components/pages/PlantDetail'
 import AddPlant from '@/components/pages/AddPlant'
+import PestIdentification from '@/components/pages/PestIdentification'
 
 export const routes = {
   dashboard: {
@@ -47,7 +48,15 @@ export const routes = {
     label: 'Add Plant',
     path: '/add-plant',
     icon: 'Plus',
-    component: AddPlant,
+component: AddPlant,
+    hidden: true
+  },
+  pestIdentification: {
+    id: 'pestIdentification',
+    label: 'Pest Identification',
+    path: '/pest-identification',
+    icon: 'Bug',
+    component: PestIdentification,
     hidden: true
   }
 }

@@ -365,19 +365,26 @@ const PlantDetail = () => {
                   }}
                 >
                   Record Pruning
-                </Button>
-                <Button
+<Button
                   variant="outline"
-                  icon="Camera"
+                  icon="Bug"
                   className="w-full justify-start"
                   onClick={() => {
-                    // Photo update action
-                    toast.info('Photo update feature coming soon!')
+                    navigate(`/pest-identification?plantId=${plant.id}`)
                   }}
                 >
-                  Update Photo
+                  Check for Pests
                 </Button>
               </div>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default PlantDetail
             </motion.div>
           </div>
         </div>
