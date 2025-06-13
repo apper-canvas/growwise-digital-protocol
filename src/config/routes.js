@@ -44,15 +44,15 @@ export const routes = {
     component: PlantDetail,
     hidden: true
   },
-  addPlant: {
+addPlant: {
     id: 'addPlant',
     label: 'Add Plant',
     path: '/add-plant',
     icon: 'Plus',
-component: AddPlant,
+    component: AddPlant,
     hidden: true
   },
-pestIdentification: {
+  pestIdentification: {
     id: 'pestIdentification',
     label: 'Pest Identification',
     path: '/pest-identification',
@@ -68,5 +68,6 @@ pestIdentification: {
     component: HarvestLog,
     hidden: true
   }
+}
 
 export const routeArray = Object.values(routes)
