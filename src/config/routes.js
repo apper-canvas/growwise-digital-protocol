@@ -5,6 +5,7 @@ import Guides from '@/components/pages/Guides'
 import PlantDetail from '@/components/pages/PlantDetail'
 import AddPlant from '@/components/pages/AddPlant'
 import PestIdentification from '@/components/pages/PestIdentification'
+import HarvestLog from '@/components/pages/HarvestLog'
 
 export const routes = {
   dashboard: {
@@ -51,14 +52,21 @@ export const routes = {
 component: AddPlant,
     hidden: true
   },
-  pestIdentification: {
+pestIdentification: {
     id: 'pestIdentification',
     label: 'Pest Identification',
     path: '/pest-identification',
     icon: 'Bug',
     component: PestIdentification,
     hidden: true
+  },
+  harvestLog: {
+    id: 'harvestLog',
+    label: 'Harvest Log',
+    path: '/harvest-log/:id?',
+    icon: 'Apple',
+    component: HarvestLog,
+    hidden: true
   }
-}
 
 export const routeArray = Object.values(routes)

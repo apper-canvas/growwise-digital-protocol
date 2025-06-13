@@ -368,6 +368,16 @@ const PlantDetail = () => {
 </Button>
                 <Button
                   variant="outline"
+                  icon="Apple"
+                  className="w-full justify-start"
+                  onClick={() => {
+                    navigate(`/harvest-log/${plant.id}`)
+                  }}
+                >
+                  Log Harvest
+                </Button>
+                <Button
+                  variant="outline"
                   icon="Bug"
                   className="w-full justify-start"
                   onClick={() => {

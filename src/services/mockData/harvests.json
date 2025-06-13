@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "plantId": "1",
+    "harvestDate": "2024-01-15T10:30:00Z",
+    "yieldAmount": 2.5,
+    "yieldUnit": "lbs",
+    "qualityRating": 4,
+    "notes": "Beautiful ripe tomatoes, perfect color and firmness",
+    "photos": [
+      "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=400&h=400&fit=crop&crop=center"
+    ],
+    "weatherConditions": "Sunny, 75°F",
+    "storageMethod": "Refrigerated"
+  },
+  {
+    "id": "2",
+    "plantId": "2",
+    "harvestDate": "2024-01-12T08:15:00Z",
+    "yieldAmount": 1.2,
+    "yieldUnit": "lbs",
+    "qualityRating": 5,
+    "notes": "Excellent lettuce harvest, crisp and fresh",
+    "photos": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&crop=center"
+    ],
+    "weatherConditions": "Cloudy, 68°F",
+    "storageMethod": "Refrigerated"
+  },
+  {
+    "id": "3",
+    "plantId": "1",
+    "harvestDate": "2024-01-08T16:45:00Z",
+    "yieldAmount": 3.1,
+    "yieldUnit": "lbs",
+    "qualityRating": 3,
+    "notes": "Some tomatoes were slightly overripe but still usable",
+    "photos": [
+      "https://images.unsplash.com/photo-1574226516831-e1dff420e562?w=400&h=400&fit=crop&crop=center"
+    ],
+    "weatherConditions": "Hot, 85°F",
+    "storageMethod": "Counter ripening"
+  }
+]
