@@ -4,7 +4,6 @@ import Calendar from '@/components/pages/Calendar'
 import Guides from '@/components/pages/Guides'
 import PlantDetail from '@/components/pages/PlantDetail'
 import AddPlant from '@/components/pages/AddPlant'
-import AddPlant from '@/components/pages/AddPlant'
 import PestIdentification from '@/components/pages/PestIdentification'
 import HarvestLog from '@/components/pages/HarvestLog'
 import Profile from '@/components/pages/Profile'
@@ -36,8 +35,8 @@ export const routes = {
     id: 'guides',
     label: 'Guides',
     path: '/guides',
-    icon: 'BookOpen',
-component: Guides
+icon: 'BookOpen',
+    component: Guides
   },
   profile: {
     id: 'profile',
