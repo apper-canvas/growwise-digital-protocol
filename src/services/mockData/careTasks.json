@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "plantId": "1",
+    "type": "Water",
+    "scheduledDate": "2024-12-20T08:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Water deeply at soil level, avoid wetting leaves"
+  },
+  {
+    "id": "2",
+    "plantId": "2",
+    "type": "Fertilize",
+    "scheduledDate": "2024-12-21T09:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Apply rose fertilizer around base, water in thoroughly"
+  },
+  {
+    "id": "3",
+    "plantId": "3",
+    "type": "Prune",
+    "scheduledDate": "2024-12-22T10:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Pinch flower buds to encourage leaf growth"
+  },
+  {
+    "id": "4",
+    "plantId": "1",
+    "type": "Pest Check",
+    "scheduledDate": "2024-12-23T07:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Check for hornworms and remove by hand"
+  },
+  {
+    "id": "5",
+    "plantId": "4",
+    "type": "Water",
+    "scheduledDate": "2024-12-24T08:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Water sparingly, lavender prefers dry conditions"
+  },
+  {
+    "id": "6",
+    "plantId": "5",
+    "type": "Water",
+    "scheduledDate": "2024-12-20T08:30:00.000Z",
+    "completed": true,
+    "completedDate": "2024-12-20T08:45:00.000Z",
+    "notes": "Watered thoroughly, soil was quite dry"
+  },
+  {
+    "id": "7",
+    "plantId": "2",
+    "type": "Deadhead",
+    "scheduledDate": "2024-12-25T09:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Remove spent blooms to encourage new flowers"
+  },
+  {
+    "id": "8",
+    "plantId": "3",
+    "type": "Harvest",
+    "scheduledDate": "2024-12-26T10:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Pick fresh basil leaves for cooking"
+  },
+  {
+    "id": "9",
+    "plantId": "1",
+    "type": "Fertilize",
+    "scheduledDate": "2024-12-28T09:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Apply balanced tomato fertilizer"
+  },
+  {
+    "id": "10",
+    "plantId": "5",
+    "type": "Support",
+    "scheduledDate": "2024-12-27T10:00:00.000Z",
+    "completed": false,
+    "notes": "",
+    "instructions": "Check and adjust cucumber trellises"
+  }
+]

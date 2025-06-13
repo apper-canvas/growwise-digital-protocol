@@ -1,0 +1,104 @@
+{
+  "current": {
+    "date": "2024-12-20T12:00:00.000Z",
+    "temperature": {
+      "current": 72,
+      "high": 78,
+      "low": 65
+    },
+    "condition": "Partly Cloudy",
+    "humidity": 68,
+    "rainfall": 0,
+    "uvIndex": 6,
+    "windSpeed": 8
+  },
+  "forecast": [
+    {
+      "date": "2024-12-21T00:00:00.000Z",
+      "temperature": {
+        "high": 75,
+        "low": 62
+      },
+      "condition": "Sunny",
+      "humidity": 55,
+      "rainfall": 0,
+      "uvIndex": 7
+    },
+    {
+      "date": "2024-12-22T00:00:00.000Z",
+      "temperature": {
+        "high": 73,
+        "low": 58
+      },
+      "condition": "Partly Cloudy",
+      "humidity": 62,
+      "rainfall": 0.1,
+      "uvIndex": 5
+    },
+    {
+      "date": "2024-12-23T00:00:00.000Z",
+      "temperature": {
+        "high": 69,
+        "low": 55
+      },
+      "condition": "Cloudy",
+      "humidity": 75,
+      "rainfall": 0.3,
+      "uvIndex": 3
+    },
+    {
+      "date": "2024-12-24T00:00:00.000Z",
+      "temperature": {
+        "high": 71,
+        "low": 60
+      },
+      "condition": "Light Rain",
+      "humidity": 82,
+      "rainfall": 0.8,
+      "uvIndex": 2
+    },
+    {
+      "date": "2024-12-25T00:00:00.000Z",
+      "temperature": {
+        "high": 76,
+        "low": 64
+      },
+      "condition": "Partly Cloudy",
+      "humidity": 70,
+      "rainfall": 0.2,
+      "uvIndex": 6
+    },
+    {
+      "date": "2024-12-26T00:00:00.000Z",
+      "temperature": {
+        "high": 79,
+        "low": 67
+      },
+      "condition": "Sunny",
+      "humidity": 58,
+      "rainfall": 0,
+      "uvIndex": 8
+    },
+    {
+      "date": "2024-12-27T00:00:00.000Z",
+      "temperature": {
+        "high": 81,
+        "low": 69
+      },
+      "condition": "Sunny",
+      "humidity": 52,
+      "rainfall": 0,
+      "uvIndex": 9
+    }
+  ],
+  "alerts": [
+    {
+      "id": "1",
+      "type": "High Temperature",
+      "message": "Extended period of high temperatures expected. Increase watering frequency for heat-sensitive plants.",
+      "severity": "moderate",
+      "startDate": "2024-12-26T00:00:00.000Z",
+      "endDate": "2024-12-28T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "name": "Cherry Tomato",
+    "scientificName": "Solanum lycopersicum var. cerasiforme",
+    "type": "Vegetable",
+    "plantedDate": "2024-03-15T00:00:00.000Z",
+    "gardenBedId": "1",
+    "photoUrl": "/api/placeholder/300/300",
+    "careRequirements": {
+      "sunlight": "Full sun (6-8 hours daily)",
+      "water": "Deep watering 2-3 times per week",
+      "soil": "Well-draining, rich in organic matter",
+      "fertilizer": "Balanced fertilizer every 2 weeks during growing season",
+      "pruning": "Remove suckers and lower leaves regularly",
+      "temperature": "65-75°F optimal"
+    },
+    "healthStatus": {
+      "water": 85,
+      "sunlight": 92,
+      "nutrients": 78
+    }
+  },
+  {
+    "id": "2",
+    "name": "Garden Rose",
+    "scientificName": "Rosa gallica",
+    "type": "Flower",
+    "plantedDate": "2024-02-20T00:00:00.000Z",
+    "gardenBedId": "2",
+    "photoUrl": "/api/placeholder/300/300",
+    "careRequirements": {
+      "sunlight": "Full sun to partial shade (4-6 hours daily)",
+      "water": "Deep watering 2 times per week",
+      "soil": "Well-draining, slightly acidic (pH 6.0-6.5)",
+      "fertilizer": "Rose fertilizer monthly during growing season",
+      "pruning": "Prune in late winter/early spring",
+      "temperature": "60-70°F optimal"
+    },
+    "healthStatus": {
+      "water": 72,
+      "sunlight": 88,
+      "nutrients": 85
+    }
+  },
+  {
+    "id": "3",
+    "name": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "type": "Herb",
+    "plantedDate": "2024-04-01T00:00:00.000Z",
+    "gardenBedId": "3",
+    "photoUrl": "/api/placeholder/300/300",
+    "careRequirements": {
+      "sunlight": "Full sun (6-8 hours daily)",
+      "water": "Regular watering, keep soil moist but not soggy",
+      "soil": "Well-draining, fertile soil",
+      "fertilizer": "Light feeding every 3-4 weeks",
+      "pruning": "Pinch flowers to encourage leaf growth",
+      "temperature": "70-80°F optimal"
+    },
+    "healthStatus": {
+      "water": 90,
+      "sunlight": 95,
+      "nutrients": 82
+    }
+  },
+  {
+    "id": "4",
+    "name": "Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "type": "Herb",
+    "plantedDate": "2024-01-10T00:00:00.000Z",
+    "gardenBedId": "2",
+    "photoUrl": "/api/placeholder/300/300",
+    "careRequirements": {
+      "sunlight": "Full sun (6+ hours daily)",
+      "water": "Water deeply but infrequently, drought tolerant",
+      "soil": "Well-draining, sandy or rocky soil",
+      "fertilizer": "Minimal feeding, avoid over-fertilizing",
+      "pruning": "Prune after flowering to maintain shape",
+      "temperature": "60-70°F optimal"
+    },
+    "healthStatus": {
+      "water": 65,
+      "sunlight": 98,
+      "nutrients": 70
+    }
+  },
+  {
+    "id": "5",
+    "name": "Cucumber",
+    "scientificName": "Cucumis sativus",
+    "type": "Vegetable",
+    "plantedDate": "2024-03-25T00:00:00.000Z",
+    "gardenBedId": "1",
+    "photoUrl": "/api/placeholder/300/300",
+    "careRequirements": {
+      "sunlight": "Full sun (6-8 hours daily)",
+      "water": "Consistent watering, 1-2 inches per week",
+      "soil": "Rich, well-draining soil with organic matter",
+      "fertilizer": "Balanced fertilizer every 3 weeks",
+      "pruning": "Train vines and remove damaged leaves",
+      "temperature": "70-85°F optimal"
+    },
+    "healthStatus": {
+      "water": 88,
+      "sunlight": 92,
+      "nutrients": 85
+    }
+  }
+]

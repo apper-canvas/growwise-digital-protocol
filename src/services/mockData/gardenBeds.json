@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Vegetable Garden",
+    "location": "South Side Yard",
+    "sunExposure": "Full Sun",
+    "soilType": "Loamy",
+    "area": 48,
+    "description": "Main vegetable growing area with raised beds"
+  },
+  {
+    "id": "2",
+    "name": "Flower Border",
+    "location": "Front Garden",
+    "sunExposure": "Partial Shade",
+    "soilType": "Clay",
+    "area": 24,
+    "description": "Decorative flower bed along the front walkway"
+  },
+  {
+    "id": "3",
+    "name": "Herb Garden",
+    "location": "Kitchen Window",
+    "sunExposure": "Full Sun",
+    "soilType": "Sandy Loam",
+    "area": 12,
+    "description": "Container herb garden near the kitchen for easy access"
+  },
+  {
+    "id": "4",
+    "name": "Shade Garden",
+    "location": "North Side",
+    "sunExposure": "Shade",
+    "soilType": "Rich Humus",
+    "area": 36,
+    "description": "Shaded area under mature trees for shade-loving plants"
+  }
+]

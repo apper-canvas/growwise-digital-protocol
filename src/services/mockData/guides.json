@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1",
+    "title": "Complete Tomato Growing Guide",
+    "description": "Everything you need to know about growing healthy, productive tomato plants from seed to harvest.",
+    "category": "Vegetables",
+    "difficulty": "Beginner",
+    "readTime": "8 min",
+    "imageUrl": "/api/placeholder/400/250",
+    "tags": ["tomatoes", "vegetables", "beginner", "summer"],
+    "content": "Tomatoes are one of the most rewarding vegetables to grow in your home garden...",
+    "sections": [
+      {
+        "title": "Getting Started",
+        "content": "Choose the right variety for your climate and space..."
+      },
+      {
+        "title": "Planting",
+        "content": "Start seeds indoors 6-8 weeks before last frost..."
+      },
+      {
+        "title": "Care & Maintenance",
+        "content": "Regular watering and support are key to success..."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Rose Care Essentials",
+    "description": "Learn the fundamentals of rose care including pruning, feeding, and disease prevention.",
+    "category": "Flowers",
+    "difficulty": "Intermediate",
+    "readTime": "12 min",
+    "imageUrl": "/api/placeholder/400/250",
+    "tags": ["roses", "flowers", "pruning", "care"],
+    "content": "Roses require specific care to thrive and produce beautiful blooms...",
+    "sections": [
+      {
+        "title": "Choosing Roses",
+        "content": "Select disease-resistant varieties suited to your climate..."
+      },
+      {
+        "title": "Planting & Location",
+        "content": "Roses need full sun and well-draining soil..."
+      },
+      {
+        "title": "Pruning Techniques",
+        "content": "Proper pruning encourages healthy growth and flowering..."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Herb Garden Basics",
+    "description": "Start your culinary herb garden with these easy-to-grow, flavorful herbs perfect for beginners.",
+    "category": "Herbs",
+    "difficulty": "Beginner",
+    "readTime": "6 min",
+    "imageUrl": "/api/placeholder/400/250",
+    "tags": ["herbs", "cooking", "container", "beginner"],
+    "content": "Growing your own herbs is one of the most satisfying aspects of gardening...",
+    "sections": [
+      {
+        "title": "Best Beginner Herbs",
+        "content": "Start with basil, parsley, chives, and mint..."
+      },
+      {
+        "title": "Container Growing",
+        "content": "Most herbs thrive in containers with good drainage..."
+      },
+      {
+        "title": "Harvesting Tips",
+        "content": "Regular harvesting encourages continued growth..."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Soil Preparation Guide",
+    "description": "Understanding and improving your garden soil for optimal plant health and productivity.",
+    "category": "Soil & Compost",
+    "difficulty": "Intermediate",
+    "readTime": "10 min",
+    "imageUrl": "/api/placeholder/400/250",
+    "tags": ["soil", "compost", "preparation", "nutrients"],
+    "content": "Healthy soil is the foundation of a successful garden...",
+    "sections": [
+      {
+        "title": "Testing Your Soil",
+        "content": "Learn how to test pH and nutrient levels..."
+      },
+      {
+        "title": "Improving Soil Structure",
+        "content": "Add organic matter to improve drainage and fertility..."
+      },
+      {
+        "title": "Composting Basics",
+        "content": "Create your own nutrient-rich compost..."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Pest Management Strategies",
+    "description": "Identify common garden pests and learn organic, environmentally-friendly control methods.",
+    "category": "Pest Control",
+    "difficulty": "Advanced",
+    "readTime": "15 min",
+    "imageUrl": "/api/placeholder/400/250",
+    "tags": ["pests", "organic", "control", "identification"],
+    "content": "Effective pest management starts with proper identification...",
+    "sections": [
+      {
+        "title": "Common Garden Pests",
+        "content": "Learn to identify aphids, caterpillars, and other pests..."
+      },
+      {
+        "title": "Organic Control Methods",
+        "content": "Use beneficial insects and natural deterrents..."
+      },
+      {
+        "title": "Prevention Strategies",
+        "content": "Healthy plants are less susceptible to pest damage..."
+      }
+    ]
+  }
+]
