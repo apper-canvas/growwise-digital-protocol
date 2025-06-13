@@ -365,7 +365,8 @@ const PlantDetail = () => {
                   }}
                 >
                   Record Pruning
-<Button
+</Button>
+                <Button
                   variant="outline"
                   icon="Bug"
                   className="w-full justify-start"
@@ -376,15 +377,6 @@ const PlantDetail = () => {
                   Check for Pests
                 </Button>
               </div>
-            </motion.div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default PlantDetail
             </motion.div>
           </div>
         </div>
