@@ -18,7 +18,7 @@ const Layout = () => {
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6">
+<nav className="hidden md:flex space-x-6">
           {mainRoutes.map((route) => (
             <NavLink
               key={route.id}
@@ -48,7 +48,7 @@ const Layout = () => {
 
       {/* Mobile Bottom Navigation */}
       <nav className="md:hidden flex-shrink-0 bg-white border-t border-gray-200 px-4 py-2 z-40">
-        <div className="flex justify-around">
+<div className="flex justify-around">
           {mainRoutes.map((route) => (
             <NavLink
               key={route.id}

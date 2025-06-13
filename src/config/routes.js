@@ -4,8 +4,11 @@ import Calendar from '@/components/pages/Calendar'
 import Guides from '@/components/pages/Guides'
 import PlantDetail from '@/components/pages/PlantDetail'
 import AddPlant from '@/components/pages/AddPlant'
+import AddPlant from '@/components/pages/AddPlant'
 import PestIdentification from '@/components/pages/PestIdentification'
 import HarvestLog from '@/components/pages/HarvestLog'
+import Profile from '@/components/pages/Profile'
+import Location from '@/components/pages/Location'
 
 export const routes = {
   dashboard: {
@@ -34,7 +37,22 @@ export const routes = {
     label: 'Guides',
     path: '/guides',
     icon: 'BookOpen',
-    component: Guides
+component: Guides
+  },
+  profile: {
+    id: 'profile',
+    label: 'Profile',
+    path: '/profile',
+    icon: 'User',
+    component: Profile
+  },
+  location: {
+    id: 'location',
+    label: 'Location',
+    path: '/location',
+    icon: 'MapPin',
+    component: Location,
+    hidden: true
   },
   plantDetail: {
     id: 'plantDetail',
