@@ -1,7 +1,7 @@
 import plantService from '@/services/api/plantService'
 import careTaskService from '@/services/api/careTaskService'
 import harvestService from '@/services/api/harvestService'
-import locationService from '@/services/api/locationService'
+import { locationService } from '@/services/api/locationService'
 import profileService from '@/services/api/profileService'
 import weatherService from '@/services/api/weatherService'
 import pestIdentificationService from '@/services/api/pestIdentificationService'
